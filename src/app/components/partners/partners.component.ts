@@ -104,10 +104,4 @@ export class PartnersComponent implements OnInit {
         }
       });
     }
-    
-  // deletePartner(id: number) {
-  //   this.partnerService.deletePartner(id).subscribe(() => {
-  //     this.loadPartners();
-  //   });
-  // }
 }

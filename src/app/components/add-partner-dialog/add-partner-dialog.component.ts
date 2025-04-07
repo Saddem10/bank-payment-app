@@ -34,7 +34,7 @@ export class AddPartnerDialogComponent {
       alias: ['', [Validators.required, this.noWhitespaceValidator]],
       type: ['', [Validators.required, this.noWhitespaceValidator]],
       direction: ['INBOUND'],
-      application: [''], // facultatif, sans validator
+      application: [''],
       processedFlowType: ['MESSAGE'],
       description: ['', [Validators.required, this.noWhitespaceValidator]],
     });
