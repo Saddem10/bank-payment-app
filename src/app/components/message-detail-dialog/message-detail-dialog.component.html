@@ -1,0 +1,10 @@
+<h2>Détail du Message</h2>
+
+<div class="dialog-content">
+  <p><strong>ID:</strong> {{ data.id }}</p>
+  <p><strong>Expéditeur:</strong> {{ data.sender }}</p>
+  <p><strong>Contenu:</strong> {{ data.content }}</p>
+  <p><strong>Reçu le:</strong> {{ data.receivedAt | date:'full' }}</p>
+</div>
+
+<button mat-button (click)="close()">Fermer</button>
